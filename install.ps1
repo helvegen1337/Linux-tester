@@ -6,7 +6,7 @@ param(
 )
 
 # Конфигурация
-$RepoUrl = "https://github.com/YOUR_USERNAME/linux-training-platform.git"
+$RepoUrl = "https://github.com/helvegen1337/linux-training-platform.git"
 $ScriptName = "linux-training"
 
 # Цвета для консоли

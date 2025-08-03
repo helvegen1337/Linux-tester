@@ -15,7 +15,7 @@ CYAN='\033[0;36m'
 NC='\033[0m' # No Color
 
 # Конфигурация
-REPO_URL="https://github.com/YOUR_USERNAME/linux-training-platform.git"
+REPO_URL="https://github.com/helvegen1337/linux-training-platform.git"
 DEFAULT_INSTALL_DIR="$HOME/.local/share/linux-training"
 SCRIPT_NAME="linux-training"
 

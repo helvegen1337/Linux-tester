@@ -19,19 +19,19 @@
 
 #### Linux/macOS:
 ```bash
-curl -sSL https://raw.githubusercontent.com/YOUR_USERNAME/linux-training-platform/main/install.sh | bash
+curl -sSL https://raw.githubusercontent.com/helvegen1337/linux-training-platform/main/install.sh | bash
 ```
 
 #### Windows (PowerShell):
 ```powershell
-irm https://raw.githubusercontent.com/YOUR_USERNAME/linux-training-platform/main/install.ps1 | iex
+irm https://raw.githubusercontent.com/helvegen1337/linux-training-platform/main/install.ps1 | iex
 ```
 
 ### Ручная установка из Git
 
 ```bash
 # Клонирование репозитория
-git clone https://github.com/YOUR_USERNAME/linux-training-platform.git
+git clone https://github.com/helvegen1337/linux-training-platform.git
 cd linux-training-platform
 
 # Запуск
@@ -90,7 +90,7 @@ linux-training
 
 ```bash
 # Клонирование для разработки
-git clone https://github.com/YOUR_USERNAME/linux-training-platform.git
+git clone https://github.com/helvegen1337/linux-training-platform.git
 cd linux-training-platform
 
 # Установка зависимостей разработки
