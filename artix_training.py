@@ -28,11 +28,11 @@ class Colors:
 
 # --- СЕКЦИЯ КОНФИГУРАЦИ-И ---
 
-RECIPIENT_EMAIL = "naidicj.v@artix.team"
-SMTP_SERVER = os.getenv("ARTIX_SMTP_SERVER")
-SMTP_PORT = os.getenv("ARTIX_SMTP_PORT", 587)
-SMTP_LOGIN = os.getenv("ARTIX_SMTP_LOGIN")
-SMTP_PASSWORD = os.getenv("ARTIX_SMTP_PASSWORD")
+RECIPIENT_EMAIL = "support@linux-training.com"
+SMTP_SERVER = os.getenv("SMTP_SERVER")
+SMTP_PORT = os.getenv("SMTP_PORT", 587)
+SMTP_LOGIN = os.getenv("SMTP_LOGIN")
+SMTP_PASSWORD = os.getenv("SMTP_PASSWORD")
 
 SESSION_LOG = []
 USER_PROGRESS = {}
@@ -294,7 +294,7 @@ def run_test_session():
     print(f"{Colors.RED}3. Овладел коровьей СуперСилой{Colors.ENDC} - экспертный уровень")
     print(f"{Colors.PURPLE}4. 📁 Знание файловой системы{Colors.ENDC} - структура каталогов и логи")
     print(f"{Colors.BLUE}5. 🏪 Работа с кассовой системой (РМК){Colors.ENDC} - кассовые операции и учет")
-    print(f"{Colors.CYAN}6. 🖥️ Artix Control Center{Colors.ENDC} - управление и мониторинг")
+    print(f"{Colors.CYAN}6. 🖥️ Control Center{Colors.ENDC} - управление и мониторинг")
     print("------------------------------------------")
     print(" 0. Назад")
     print("------------------------------------------")
@@ -543,7 +543,7 @@ def show_user_progress():
             "3": "🌳 ВОЛОСАТАЯ ГОРИЛЛА",
             "4": "📁 Знание файловой системы",
             "5": "🏪 Работа с кассовой системой (РМК)",
-            "6": "🖥️ Artix Control Center"
+            "6": "🖥️ Control Center"
         }
         for level, result in test_results.items():
             if level not in levels:

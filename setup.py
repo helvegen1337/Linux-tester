@@ -52,8 +52,8 @@ setup(
     description="🐧 Interactive Linux Command Line Training Platform",
     long_description=read_readme(),
     long_description_content_type="text/markdown",
-    author="Artix Team",
-    author_email="naidicj.v@artix.team",
+    author="Linux Training Team",
+    author_email="support@linux-training.com",
     url="https://github.com/helvegen1337/Linux-tester",
     license="MIT",
     
