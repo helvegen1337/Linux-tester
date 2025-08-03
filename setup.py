@@ -54,7 +54,7 @@ setup(
     long_description_content_type="text/markdown",
     author="Artix Team",
     author_email="naidicj.v@artix.team",
-    url="https://github.com/helvegen1337/linux-training-platform",
+    url="https://github.com/helvegen1337/Linux-tester",
     license="MIT",
     
     # Классификаторы для PyPI
@@ -110,8 +110,8 @@ setup(
     
     # Метаданные проекта
     project_urls={
-        "Bug Reports": "https://github.com/helvegen1337/linux-training-platform/issues",
-        "Source": "https://github.com/helvegen1337/linux-training-platform",
-        "Documentation": "https://github.com/helvegen1337/linux-training-platform/blob/main/README.md",
+        "Bug Reports": "https://github.com/helvegen1337/Linux-tester/issues",
+        "Source": "https://github.com/helvegen1337/Linux-tester",
+        "Documentation": "https://github.com/helvegen1337/Linux-tester/blob/main/README.md",
     },
 )

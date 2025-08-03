@@ -19,20 +19,20 @@
 
 #### Linux/macOS:
 ```bash
-curl -sSL https://raw.githubusercontent.com/helvegen1337/linux-training-platform/main/install.sh | bash
+curl -sSL https://raw.githubusercontent.com/helvegen1337/Linux-tester/main/install.sh | bash
 ```
 
 #### Windows (PowerShell):
 ```powershell
-irm https://raw.githubusercontent.com/helvegen1337/linux-training-platform/main/install.ps1 | iex
+irm https://raw.githubusercontent.com/helvegen1337/Linux-tester/main/install.ps1 | iex
 ```
 
 ### Ручная установка из Git
 
 ```bash
 # Клонирование репозитория
-git clone https://github.com/helvegen1337/linux-training-platform.git
-cd linux-training-platform
+git clone https://github.com/helvegen1337/Linux-tester.git
+cd Linux-tester
 
 # Запуск
 python3 artix_training.py
@@ -90,8 +90,8 @@ linux-training
 
 ```bash
 # Клонирование для разработки
-git clone https://github.com/helvegen1337/linux-training-platform.git
-cd linux-training-platform
+git clone https://github.com/helvegen1337/Linux-tester.git
+cd Linux-tester
 
 # Установка зависимостей разработки
 make setup-dev
